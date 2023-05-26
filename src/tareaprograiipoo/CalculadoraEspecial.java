@@ -98,7 +98,7 @@ public static int mostrarNumerosImpares(int numero) {
 }     
 }      
 
-
+///2
 
  
 
