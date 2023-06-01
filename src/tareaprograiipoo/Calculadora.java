@@ -2,7 +2,7 @@
 package tareaprograiipoo;
 
 
-public class Calculadora {    
+public class Calculadora  {    
     //Atributos de Clase, pueden ser Publicos, Privados y Protegidos (en herencia)
     public String tipoCalculadora;
     public String color;

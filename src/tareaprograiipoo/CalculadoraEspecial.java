@@ -1,26 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package tareaprograiipoo;
 
-/**
- *
- * @author luis2
- */
-public class CalculadoraEspecial {
+public class CalculadoraEspecial extends Calculadora {
     public String tipoCalculadoraEspecial;
     public String color;
     public int dimensionPantalla;
     private String numeroDeSerie;
     private String nombrePropietario;
  
-    
-    
-    
-    
-    
     
     public CalculadoraEspecial (String propietario){
         this.tipoCalculadoraEspecial="Calculadora Especial";
@@ -57,7 +44,7 @@ public class CalculadoraEspecial {
        
        double area = (base * altura)/ 2;
        
-       System.out.println("El área del triángulo es: " + area);
+       System.out.println("El área del triángulo es: ");
        
        return (int)  area;
        

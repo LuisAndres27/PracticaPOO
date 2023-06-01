@@ -2,6 +2,8 @@ package tareaprograiipoo;
 
 import java.util.Scanner;
 
+////////////////La herencia de calculadora se puede ver en la calculadora especial 7
+
 public class TareaPrograIIPOO {
 
     /**
@@ -26,15 +28,22 @@ public class TareaPrograIIPOO {
            System.out.println("5. Raiz Cuadrada");
            System.out.println("6. Verificar numero Primo");
            System.out.println("=======================");
+           System.out.println("La herencia de calculadora se puede ver en la calculadora especial 7");
+           System.out.println("=======================");
            System.out.println("7. Calculadora Especial");
            System.out.println("=======================");
            System.out.println("8. Salir");
            System.out.println("Selecciona una opcion");
            System.out.println("=======================");
+           
+     
            opcion = sn.nextInt();
             switch(opcion){
+                
                 case 1:
                    System.out.println("El resultado de la suma es = " + calculadora.sumar(10, 5));
+                   
+                  
                    break;
                 case 2:
                    System.out.println("El resultado de la resta es = " +calculadora.restar(10, 5));
@@ -54,6 +63,8 @@ public class TareaPrograIIPOO {
                 case 7:
                     System.out.println("");
                     System.out.println("=======================");
+                    System.out.println("En cualquiera de los casos mostrara un metodo de la calculadora");
+                    System.out.println("=======================");
                     System.out.println("Calculadora Especial");
                     System.out.println("=======================");
                     System.out.println("Selecciona una opcion");
@@ -72,26 +83,55 @@ public class TareaPrograIIPOO {
                         
                     case 1:
                     System.out.println(CalculadoraEspecial.esPar( 5 ));
+                    //herencia///////
+                    System.out.println("=======================");
+                    System.out.println("Herencia de la calculadora-metodo/sumar");
+                    System.out.println(CalculadoraEspecial.sumar(5,5 ));
+                    System.out.println("=======================");
                     break;
                     
                     case 2:
+                        
                     System.out.println(CalculadoraEspecial.Tabla(5));
+                    System.out.println("=======================");
+                    System.out.println("Herencia de la calculadora-metodo/restar");
+                    System.out.println(CalculadoraEspecial.restar(5,5 ));
+                    System.out.println("=======================");
                     break;
                     
                      case 3:
                    System.out.println( CalculadoraEspecial.AreaTriangulo(5,5));
+                    System.out.println("=======================");
+                    System.out.println("Herencia de la calculadora-metodo/multiplicar");
+                    System.out.println(CalculadoraEspecial.multiplicar(5,5 ));
+                    System.out.println("=======================");
+                   
                    break;
                     
                    case 4:
                    System.out.println ( CalculadoraEspecial.elevarAlCuadrado(5));
+                   System.out.println("=======================");
+                    System.out.println("Herencia de la calculadora-metodo/dividir");
+                    System.out.println(CalculadoraEspecial.dividir(10,5 ));
+                    System.out.println("=======================");
                    break;
                              
                     case 5:
                    System.out.println ( CalculadoraEspecial.calcularFactorial(5));
+                   System.out.println("=======================");
+                   System.out.println("Herencia de la calculadora-metodo/raiz");
+                   System.out.println(CalculadoraEspecial.raizCuadrada(5));
+                   System.out.println("=======================");
                    break;
                    
                     case 6:
                    System.out.println ( CalculadoraEspecial. mostrarNumerosImpares(10));
+                   System.out.println("=======================");
+                   System.out.println("Herencia de la calculadora-metodo/esPrimo");
+                   System.out.println(CalculadoraEspecial.esPrimo(5));
+                   System.out.println("=======================");
+                   
+                   
                    break;
                    
                    case 7:
